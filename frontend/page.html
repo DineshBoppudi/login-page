@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>My Website</h1>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-container">
+
+        <h2>Welcome Back </h2>
+        <p>Please login to continue</p>
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter Email">
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter Password">
+
+        <button onclick="login()">
+            Login
+        </button>
+
+        <a href="#" class="forgot">
+            Forgot Password?
+        </a>
+
+        <p class="signup">
+            Don't have an account?
+            <a href="#">Sign Up</a>
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
